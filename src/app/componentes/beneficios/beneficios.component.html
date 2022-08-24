@@ -1,0 +1,23 @@
+<section id="beneficios">
+  <div class="container">
+    <div class="row">
+      <h2 class="titulo">Benefícios</h2>
+      <div class="beneficios-1">
+        <div class="col-lg-6 imagem">
+          <img
+            src="assets\images\yoga-poses-provide-varying-benefits-depending-needs-yogi.jpg"
+            alt=""
+            class="img-beneficio"
+          />
+        </div>
+        <div class="col-lg-6 lista" >
+          <ul class="lista-itens">
+            <li *ngFor="let lista of listaBeneficios" class="itens" style="font-size:20px ; font-weight:600;padding: 3px;">
+              {{ lista }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

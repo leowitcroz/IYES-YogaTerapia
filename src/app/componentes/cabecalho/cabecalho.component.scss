@@ -1,0 +1,65 @@
+#cabecalho{
+
+
+
+    .conteudo{
+        
+        display:flex;
+        justify-content: space-between;
+
+
+        .logo{
+            display: flex;
+            align-items: center;
+
+
+            .logo-1{
+                width: 20%;
+            }
+
+            h1{
+                padding-left: 5%;
+                font-family: 'Josefin Sans', sans-serif;
+                font-weight: 500;
+            }
+        }
+
+        nav{
+            display: flex;
+            align-items: center;
+            margin-right: 15%;
+            
+            a{
+                padding-left: 20%;
+                font-size: 30px;
+                
+                    .whatsapp{
+                        width: 60px;
+                        
+                    }
+
+                    .insta{
+                        width: 60px;
+                    }
+                
+
+                p{
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 600;
+                    font-family: 'Josefin Sans', sans-serif;
+
+                }
+              
+                
+            }
+
+        }
+
+
+
+
+
+
+    }
+}

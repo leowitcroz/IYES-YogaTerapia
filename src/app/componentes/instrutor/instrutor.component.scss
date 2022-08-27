@@ -1,0 +1,35 @@
+#instrutor{
+    margin-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 1px solid white;
+  
+    .titulo {
+      margin-left: 15px;
+      font-size: 40px;
+      color: rgb(134, 115, 72);
+    }
+    .beneficios-1 {
+      display: flex;
+      align-items: center;
+      .imagem {
+        .img-instrutor {
+          border: 5px solid white;
+          margin-top: 15px;
+          width: 98%;
+        }
+  
+        .lista{
+          
+          ul{
+              border: 1px solid white;
+               margin-left: 15px;
+          }
+  
+  
+        }
+  
+  
+      }
+    }
+  }
+  

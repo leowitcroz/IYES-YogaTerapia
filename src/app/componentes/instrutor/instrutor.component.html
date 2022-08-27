@@ -1,0 +1,24 @@
+<section id="instrutor">
+    <div class="container">
+      <div class="row">
+        <h2 class="titulo">Sobre o instrutor</h2>
+        <div class="beneficios-1">
+          <div class="col-lg-6 imagem">
+            <img
+              src="assets\images\foto.jpg"
+              alt=""
+              class="img-instrutor"
+            />
+          </div>
+          <div class="col-lg-6 lista" >
+            <ul class="lista-itens">
+              <li *ngFor="let textos of texto" class="itens" style="font-size:20px ; font-weight:600;padding: 3px;">
+                {{ textos }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

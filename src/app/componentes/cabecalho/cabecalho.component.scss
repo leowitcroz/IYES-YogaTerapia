@@ -1,65 +1,59 @@
-#cabecalho{
+#cabecalho {
+  border-bottom: 1px solid white;
+  .conteudo {
+    display: flex;
+    justify-content: space-between;
 
+    .logo {
+      display: flex;
+      align-items: center;
 
-border-bottom: 1px solid white ;
-    .conteudo{
-        
-        display:flex;
-        justify-content: space-between;
+      .logo-1 {
+        width: 20%;
+      }
 
-
-        .logo{
-            display: flex;
-            align-items: center;
-
-
-            .logo-1{
-                width: 20%;
-            }
-
-            h1{
-                padding-left: 5%;
-                font-family: 'Josefin Sans', sans-serif;
-                font-weight: 500;
-            }
-        }
-
-        nav{
-            display: flex;
-            align-items: center;
-            margin-right: 15%;
-            
-            a{
-                padding-left: 20%;
-                font-size: 30px;
-                
-                    .whatsapp{
-                        width: 60px;
-                        
-                    }
-
-                    .insta{
-                        width: 60px;
-                    }
-                
-
-                p{
-                    text-decoration: none;
-                    color: black;
-                    font-weight: 600;
-                    font-family: 'Josefin Sans', sans-serif;
-
-                }
-              
-                
-            }
-
-        }
-
-
-
-
-
-
+      h1 {
+        margin-left: 5%;
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 500;
+        color: rgb(134, 115, 72);
+        border-bottom: 1px solid rgb(134, 115, 72);
+      }
     }
+
+    nav {
+      display: flex;
+      align-items: center;
+      margin-right: 15%;
+
+      .links {
+        padding-left: 20%;
+        font-size: 30px;
+
+        .link-decoration {
+          background-color: #eecfbb;
+          border: none;
+          font-weight: 600;
+        }
+        .link-decoration:hover{
+            text-decoration: underline;
+        }
+
+        .whatsapp {
+          width: 60px;
+        }
+
+        .insta {
+          width: 60px;
+        }
+
+        p {
+          text-decoration: none;
+          color: black;
+          font-weight: 600;
+          font-family: "Josefin Sans", sans-serif;
+        }
+      }
+    }
+  }
 }
